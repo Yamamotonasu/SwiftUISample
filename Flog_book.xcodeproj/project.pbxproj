@@ -56,11 +56,8 @@
 		0387DDFD235497740098B2F1 /* Flog_book */ = {
 			isa = PBXGroup;
 			children = (
-				0387DDFE235497740098B2F1 /* AppDelegate.swift */,
-				0387DE00235497740098B2F1 /* SceneDelegate.swift */,
-				0387DE02235497740098B2F1 /* ContentView.swift */,
+				0387DE1223549AA10098B2F1 /* src */,
 				0387DE042354977A0098B2F1 /* Assets.xcassets */,
-				0387DE092354977A0098B2F1 /* LaunchScreen.storyboard */,
 				0387DE0C2354977A0098B2F1 /* Info.plist */,
 				0387DE062354977A0098B2F1 /* Preview Content */,
 			);
@@ -73,6 +70,33 @@
 				0387DE072354977A0098B2F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0387DE1223549AA10098B2F1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0387DE00235497740098B2F1 /* SceneDelegate.swift */,
+				0387DDFE235497740098B2F1 /* AppDelegate.swift */,
+				0387DE1423549AB20098B2F1 /* launch */,
+				0387DE1323549AAB0098B2F1 /* views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0387DE1323549AAB0098B2F1 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0387DE02235497740098B2F1 /* ContentView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0387DE1423549AB20098B2F1 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				0387DE092354977A0098B2F1 /* LaunchScreen.storyboard */,
+			);
+			path = launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
