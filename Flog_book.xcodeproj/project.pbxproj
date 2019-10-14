@@ -13,8 +13,9 @@
 		0387DE052354977A0098B2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0387DE042354977A0098B2F1 /* Assets.xcassets */; };
 		0387DE082354977A0098B2F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0387DE072354977A0098B2F1 /* Preview Assets.xcassets */; };
 		0387DE0B2354977A0098B2F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0387DE092354977A0098B2F1 /* LaunchScreen.storyboard */; };
-		0387DE1723549BCC0098B2F1 /* Flog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387DE1623549BCC0098B2F1 /* Flog.swift */; };
+		0387DE1723549BCC0098B2F1 /* Frog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387DE1623549BCC0098B2F1 /* Frog.swift */; };
 		0387DE1B23549F740098B2F1 /* FrogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387DE1A23549F740098B2F1 /* FrogItem.swift */; };
+		0387DE1D2354AD7B0098B2F1 /* FrogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387DE1C2354AD7B0098B2F1 /* FrogDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		0387DE072354977A0098B2F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0387DE0A2354977A0098B2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0387DE0C2354977A0098B2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0387DE1623549BCC0098B2F1 /* Flog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flog.swift; sourceTree = "<group>"; };
+		0387DE1623549BCC0098B2F1 /* Frog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frog.swift; sourceTree = "<group>"; };
 		0387DE1A23549F740098B2F1 /* FrogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogItem.swift; sourceTree = "<group>"; };
+		0387DE1C2354AD7B0098B2F1 /* FrogDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				0387DE02235497740098B2F1 /* ContentView.swift */,
 				0387DE1A23549F740098B2F1 /* FrogItem.swift */,
+				0387DE1C2354AD7B0098B2F1 /* FrogDetail.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -108,7 +111,7 @@
 		0387DE1523549B9E0098B2F1 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				0387DE1623549BCC0098B2F1 /* Flog.swift */,
+				0387DE1623549BCC0098B2F1 /* Frog.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -186,7 +189,8 @@
 			files = (
 				0387DDFF235497740098B2F1 /* AppDelegate.swift in Sources */,
 				0387DE1B23549F740098B2F1 /* FrogItem.swift in Sources */,
-				0387DE1723549BCC0098B2F1 /* Flog.swift in Sources */,
+				0387DE1D2354AD7B0098B2F1 /* FrogDetail.swift in Sources */,
+				0387DE1723549BCC0098B2F1 /* Frog.swift in Sources */,
 				0387DE01235497740098B2F1 /* SceneDelegate.swift in Sources */,
 				0387DE03235497740098B2F1 /* ContentView.swift in Sources */,
 			);
